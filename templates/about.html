@@ -1,0 +1,26 @@
+
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %} About {% endblock title %}
+
+{% block content %}
+
+{% include 'banner.html' %}
+
+</br>
+<div class="col-md-12 col-md-offset-2">
+<div class="card mb-6">
+  <img src="{% static 'media\about.jpg' %}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"><center>Overview</center></h5>
+    <p class="card-text">Though the name says CSEDU Students’ Club, it is not confined only within the CSEDU perimeter. It is a platform for all the students (whether in CSE or not) interested in technology across our country. The club is organized and managed by a group of energetic and enthusiastic students of the Department of Computer Science & Engineering of the University of Dhaka.
+
+This club is the voice of the students of CSEDU. It represents them and their thoughts are expressed through it. Our motto is "Innovation; better nation". The club is motivated towards building a better nation through innovation. 'Innovation' represents our innovative ideas and they will be used for the betterment of the nation. In middle ';' represents our CSE studies.
+
+The club came into being on an amazing date, 14th March, 2013; World Pi Day and Albert Einstein’s birthday. And now we are looking forward to giving each person completion as a human being through various activities.</p>
+  </div>
+</div>
+
+{% endblock %}

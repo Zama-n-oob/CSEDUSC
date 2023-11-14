@@ -1,0 +1,3 @@
+pip3.8 install --user pythonanywhere
+pa_autoconfigure_django.py --python=3.8 https://github.com/mahnaz123-ameer/CSEDUSC.git
+pa_autoconfigure_django.py --nuke https://github.com/mahnaz123-ameer/CSEDUSC.git
